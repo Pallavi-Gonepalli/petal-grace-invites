@@ -26,7 +26,7 @@ export const PhotoGallery = () => {
       category: "prewedding"
     },
     {
-      url: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80",
+      url: "./images/IMG5.jpeg",
       alt: "Engagement photo 3",
       category: "engagement"
     },

@@ -4,31 +4,31 @@ import { Calendar, Clock, MapPin } from "lucide-react";
 export const EventSchedule = () => {
   const events = [
     {
-      time: "4:00 PM",
-      title: "Ceremony",
-      description: "Join us as we exchange vows in our beautiful garden ceremony",
-      location: "Sunset Gardens Pavilion",
+      time: "9:00 AM",
+      title: "Haldhi",
+      description: "Join us for the vibrant Haldi celebration filled with love, laughter, and golden hues",
+      location: "Our HomeTown, Mudirajupalem",
       icon: Calendar
     },
     {
-      time: "5:30 PM",
-      title: "Cocktail Hour",
-      description: "Enjoy signature cocktails and hors d'oeuvres while we take photos",
-      location: "Garden Terrace",
+      time: "6:00 PM",
+      title: "Sangeeth",
+      description: "Join us for a magical Sangeet night filled with music, dance, and joyous celebrations",
+      location: "Mudirajupalem",
       icon: Clock
     },
     {
       time: "7:00 PM",
-      title: "Reception & Dinner",
-      description: "Celebrate with dinner, dancing, and lots of joy",
-      location: "Grand Ballroom",
+      title: "Wedding",
+      description: "With immense love and gratitude, we invite you to join us as we unite in marriage and celebrate the beginning of our lifelong journey together",
+      location: "Mudirajupalem",
       icon: MapPin
     },
     {
-      time: "11:00 PM",
-      title: "After Party",
-      description: "Keep the celebration going with music and dancing",
-      location: "Rooftop Lounge",
+      time: "9:00 AM",
+      title: "Reception",
+      description: "Join us for an evening of love, laughter, and celebration at our Wedding Reception",
+      location: "Mudirajupalem",
       icon: Clock
     }
   ];
@@ -83,18 +83,7 @@ export const EventSchedule = () => {
           })}
         </div>
 
-        <div className="text-center mt-12 animate-fade-in-up">
-          <div className="luxury-card p-8 max-w-2xl mx-auto">
-            <h3 className="elegant-text text-2xl font-semibold mb-4 text-royal-700">
-              Dress Code
-            </h3>
-            <p className="body-text text-gray-600 leading-relaxed">
-              Semi-formal attire requested. Think garden party elegance - 
-              sundresses, slacks with button-downs, or cocktail attire. 
-              Please avoid white and ivory colors.
-            </p>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
