@@ -7,27 +7,21 @@ export const CoupleStory = () => {
 
   const storySteps = [
     {
-      year: "2018",
+      year: "2024",
       title: "First Meeting",
-      description: "We met at a coffee shop in downtown Portland on a rainy Tuesday morning. Sarah was reading her favorite book while Michael was working on his laptop.",
+      description: "We met at a coffee shop in downtown Mudirajupalem. Bhanu was reading her favorite book in the terrace while Durga was working on his laptop.",
       position: "left"
     },
     {
-      year: "2019",
-      title: "First Date",
-      description: "Our first official date was a hiking trip to Mount Hood. We talked for hours about our dreams, goals, and shared love for adventure.",
-      position: "right"
-    },
-    {
-      year: "2021",
+      year: "2025",
       title: "Moving In",
       description: "We decided to take the next step and move in together. Our little apartment became our sanctuary filled with laughter, love, and countless memories.",
       position: "left"
     },
     {
-      year: "2023",
+      year: "2025",
       title: "The Proposal",
-      description: "Michael proposed during a sunset picnic at our favorite spot by the lake. Sarah said yes through happy tears, and we celebrated with champagne under the stars.",
+      description: "Durga proposed during a sunset picnic at our favorite spot by the Park. Bhanu said yes through happy tears, and we celebrated with champagne under the stars.",
       position: "right"
     }
   ];

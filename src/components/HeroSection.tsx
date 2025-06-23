@@ -25,7 +25,7 @@ export const HeroSection = () => {
       <div className={`relative z-10 text-center px-4 transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
         <div className="luxury-card p-12 max-w-4xl mx-auto">
           <h1 className="font-dancing text-6xl md:text-8xl text-royal-600 mb-4 animate-float">
-            Sarah & Michael
+            Durga & Bhanu
           </h1>
           <div className="w-32 h-px bg-gradient-royal mx-auto mb-6" />
           <h2 className="elegant-text text-2xl md:text-3xl mb-6">
@@ -33,14 +33,14 @@ export const HeroSection = () => {
           </h2>
           <p className="body-text text-xl md:text-2xl mb-8">
             Request the honor of your presence<br />
-            at the celebration of our love
+            at the celebration of our love...
           </p>
           <div className="space-y-2">
             <p className="elegant-text text-xl font-semibold text-royal-700">
-              Saturday, September 15th, 2024
+              Friday, August 1st, 2025
             </p>
             <p className="body-text text-lg text-gray-600">
-              Sunset Gardens, Napa Valley
+              Ramalayam Temple Road, Mudirajupalem
             </p>
           </div>
           

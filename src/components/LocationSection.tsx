@@ -14,7 +14,7 @@ export const LocationSection = () => {
           </h2>
           <div className="w-24 h-px bg-gradient-royal mx-auto mb-6" />
           <p className="body-text text-lg text-gray-600">
-            Join us at the breathtaking Sunset Gardens in Napa Valley
+            Let’s gather at our home in Mudirajupalem to celebrate this joyous wedding occasion together.....
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export const LocationSection = () => {
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="elegant-text text-2xl font-semibold">
-                  Sunset Gardens
+                  Ramalayam Temple
                 </h3>
               </div>
               
@@ -36,38 +36,18 @@ export const LocationSection = () => {
                     Address
                   </h4>
                   <p className="body-text text-gray-600">
-                    1234 Vineyard Lane<br />
-                    Napa Valley, CA 94558
+                    Ramalayam Temple Street<br />
+                    Mudirajupalem, Gannavaram
                   </p>
                 </div>
                 
-                <div>
-                  <h4 className="font-cormorant text-lg font-semibold text-royal-700 mb-2">
-                    Parking
-                  </h4>
-                  <p className="body-text text-gray-600">
-                    Complimentary valet parking available on-site
-                  </p>
-                </div>
-                
-                <div>
-                  <h4 className="font-cormorant text-lg font-semibold text-royal-700 mb-2">
-                    Accommodations
-                  </h4>
-                  <p className="body-text text-gray-600">
-                    We have reserved room blocks at nearby hotels. 
-                    Please see our wedding website for details and booking codes.
-                  </p>
-                </div>
-              </div>
+               
               
               <div className="mt-8 space-y-3">
                 <button className="w-full bg-gradient-royal text-white py-3 px-6 rounded-lg font-cormorant text-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
                   Get Directions
                 </button>
-                <button className="w-full border-2 border-royal-400 text-royal-600 py-3 px-6 rounded-lg font-cormorant text-lg font-semibold hover:bg-royal-50 transition-all duration-300">
-                  View Accommodations
-                </button>
+                
               </div>
             </div>
           </div>
@@ -92,8 +72,8 @@ export const LocationSection = () => {
                        }}>
                     <div className="w-full h-full bg-gradient-to-t from-black/30 to-transparent rounded-lg flex items-end justify-center">
                       <div className="text-white text-center p-6">
-                        <h4 className="font-dancing text-2xl mb-2">Sunset Gardens</h4>
-                        <p className="text-sm">Napa Valley, California</p>
+                        <h4 className="font-dancing text-2xl mb-2">Ramalayam Temple</h4>
+                        <p className="text-sm">Mudirajupalem, Gannavaram</p>
                       </div>
                     </div>
                   </div>

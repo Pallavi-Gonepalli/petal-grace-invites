@@ -13,7 +13,6 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-elegant overflow-x-hidden">
       <FloatingPetals />
       <HeroSection />
-      <CoupleStory />
       <CountdownTimer />
       <EventSchedule />
       <LocationSection />

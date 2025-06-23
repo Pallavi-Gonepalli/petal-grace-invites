@@ -54,7 +54,7 @@ export const RSVPForm = () => {
           </h2>
           <div className="w-24 h-px bg-gradient-royal mx-auto mb-6" />
           <p className="body-text text-lg text-gray-600">
-            We hope you can join us on our special day. Please respond by August 15th, 2024
+            We hope you can join us on our special day. Please respond by August 1st, 2025
           </p>
         </div>
 
@@ -110,22 +110,7 @@ export const RSVPForm = () => {
                 </select>
               </div>
 
-              <div className="space-y-2">
-                <label className="body-text font-semibold text-royal-700">
-                  Number of Guests
-                </label>
-                <select
-                  name="guestCount"
-                  value={formData.guestCount}
-                  onChange={handleChange}
-                  className="w-full p-4 border border-royal-200 rounded-lg focus:ring-2 focus:ring-royal-400 focus:border-transparent transition-all duration-300 body-text"
-                >
-                  <option value="1">Just me</option>
-                  <option value="2">2 people</option>
-                  <option value="3">3 people</option>
-                  <option value="4">4 people</option>
-                </select>
-              </div>
+              
             </div>
 
             <div className="space-y-2">
@@ -177,11 +162,11 @@ export const RSVPForm = () => {
             Questions? Feel free to reach out to us directly
           </p>
           <div className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-8">
-            <a href="mailto:sarah@email.com" className="text-blush-600 hover:text-blush-700 transition-colors duration-300">
-              Sarah: sarah@email.com
+            <a href="#" className="text-blush-600 hover:text-blush-700 transition-colors duration-300">
+             Durga
             </a>
-            <a href="mailto:michael@email.com" className="text-royal-600 hover:text-royal-700 transition-colors duration-300">
-              Michael: michael@email.com
+            <a href="#" className="text-royal-600 hover:text-royal-700 transition-colors duration-300">
+              Bhanu
             </a>
           </div>
         </div>
