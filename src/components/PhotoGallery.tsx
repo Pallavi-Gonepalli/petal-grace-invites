@@ -26,14 +26,9 @@ export const PhotoGallery = () => {
       category: "prewedding"
     },
     {
-      url: "./images/IMG5.jpeg",
+      url: "./images/Img5.jpeg",
       alt: "Engagement photo 3",
       category: "engagement"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?auto=format&fit=crop&q=80",
-      alt: "Pre-wedding photo 3",
-      category: "prewedding"
     }
   ];
 
@@ -101,16 +96,7 @@ export const PhotoGallery = () => {
           </div>
         )}
 
-        <div className="text-center mt-12 animate-fade-in-up">
-          <p className="body-text text-gray-600 mb-6">
-            Want to see more? Follow our journey on social media
-          </p>
-          <div className="flex justify-center space-x-6">
-            <button className="bg-gradient-royal text-white px-6 py-3 rounded-lg font-cormorant font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-              #SarahAndMichael2024
-            </button>
-          </div>
-        </div>
+       
       </div>
     </section>
   );
