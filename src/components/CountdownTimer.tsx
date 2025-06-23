@@ -9,7 +9,7 @@ export const CountdownTimer = () => {
     seconds: 0
   });
 
-  const weddingDate = new Date('2024-09-15T18:00:00').getTime();
+  const weddingDate = new Date('2025-08-01T23:58:00').getTime();
 
   useEffect(() => {
     const timer = setInterval(() => {
