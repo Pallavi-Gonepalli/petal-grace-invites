@@ -66,17 +66,28 @@ export const LocationSection = () => {
                     </p>
                   </div>
                 ) : (
-                  <div className="w-full h-full bg-cover bg-center rounded-lg animate-scale-in"
-                       style={{
-                         backgroundImage: `url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80')`
-                       }}>
-                    <div className="w-full h-full bg-gradient-to-t from-black/30 to-transparent rounded-lg flex items-end justify-center">
-                      <div className="text-white text-center p-6">
-                        <h4 className="font-dancing text-2xl mb-2">Ramalayam Temple</h4>
-                        <p className="text-sm">Mudirajupalem, Gannavaram</p>
-                      </div>
-                    </div>
-                  </div>
+                  <div className="w-full h-full rounded-lg animate-scale-in overflow-hidden">
+  {/* Google Map Iframe as background */}
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1170.124113910843!2d80.75312398672102!3d16.588189126770626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35e35f6d659a2b%3A0xa4173fe375df31a9!2sRamalayam%20Temple!5e0!3m2!1sen!2sin!4v1750675814966!5m2!1sen!2sin"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    className="w-full h-full"
+  ></iframe>
+
+  {/* Overlay content */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-lg flex items-end justify-center pointer-events-none">
+    <div className="text-white text-center p-6">
+      <h4 className="font-dancing text-2xl mb-2">Ramalayam Temple</h4>
+      <p className="text-sm">Mudirajupalem, Gannavaram</p>
+    </div>
+  </div>
+</div>
+
                 )}
               </div>
             </div>
