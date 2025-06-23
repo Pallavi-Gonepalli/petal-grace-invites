@@ -40,7 +40,7 @@ export const LocationSection = () => {
                     Mudirajupalem, Gannavaram
                   </p>
                 </div>
-                
+                </div>
                
               
               <div className="mt-8 space-y-3">
