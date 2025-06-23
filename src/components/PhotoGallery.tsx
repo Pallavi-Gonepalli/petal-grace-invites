@@ -6,22 +6,22 @@ export const PhotoGallery = () => {
 
   const photos = [
     {
-      url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80",
+      url: "./images/Img1.jpeg",
       alt: "Engagement photo 1",
       category: "engagement"
     },
     {
-      url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80",
+      url: "./images/Img2.jpeg",
       alt: "Engagement photo 2",
       category: "engagement"
     },
     {
-      url: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&q=80",
+      url: "./images/Img3.jpeg",
       alt: "Pre-wedding photo 1",
       category: "prewedding"
     },
     {
-      url: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80",
+      url: "./images/Img4.jpeg",
       alt: "Pre-wedding photo 2",
       category: "prewedding"
     },
